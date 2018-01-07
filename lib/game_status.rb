@@ -34,6 +34,4 @@ WIN_COMBINATIONS.each do |win_index|
   end
 end
 
-position_taken?
-
 won?
