@@ -34,4 +34,5 @@ WIN_COMBINATIONS.each do |win_index|
   end
 end
 
-puts won?(board,index)
+position_taken?(board,index)
+won?(board,index)
