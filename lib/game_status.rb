@@ -24,3 +24,5 @@ WIN_COMBINATIONS.each do |win_index|
     end
   end
 end
+
+position_taken?
