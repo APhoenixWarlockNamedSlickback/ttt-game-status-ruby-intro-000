@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
   [6,4,2]
 ]# Define your WIN_COMBINATIONS constant
 
-def won?(board,index)
+def won?(board)
   if WIN_COMBINATIONS == true
     puts WIN_COMBINATIONS
   else
