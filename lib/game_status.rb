@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 ]# Define your WIN_COMBINATIONS constant
 
 def won?(board)
-  if winner == true
+  if WIN_COMBINATIONS == true
     puts "#{win_index}"
   else
     false
