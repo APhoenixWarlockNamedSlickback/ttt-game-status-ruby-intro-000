@@ -24,3 +24,13 @@ def won?(board)
   end
   false
 end
+
+def full?(board)
+  board.each do |index|
+    if index != " "
+      true
+    else
+      false
+    end
+  end
+end
