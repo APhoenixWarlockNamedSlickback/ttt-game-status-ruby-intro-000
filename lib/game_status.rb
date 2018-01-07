@@ -16,7 +16,12 @@ WIN_COMBINATIONS = [
 ]# Define your WIN_COMBINATIONS constant
 
 def won?(board,index)
-
+  if WIN_COMBINATIONS == true
+    puts WIN_COMBINATIONS
+  else
+    false
+  end
+end
 
 
 WIN_COMBINATIONS.each do |win_index|
