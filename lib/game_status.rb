@@ -36,5 +36,3 @@ end
 
 
 won?(board)
-
-puts "#{win_index}"
