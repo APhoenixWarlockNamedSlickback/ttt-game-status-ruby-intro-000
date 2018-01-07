@@ -27,7 +27,7 @@ end
 WIN_COMBINATIONS.each do |win_index|
   win_index.each do |position|
     if position[0] == "X" && position[1] == "X" && position[2] == "X"
-      WIN == true
+      winner == true
     else
       false
     end
