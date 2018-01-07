@@ -15,6 +15,10 @@ WIN_COMBINATIONS = [
   [6,4,2]
 ]# Define your WIN_COMBINATIONS constant
 
+def won?(board,index)
+
+
+
 WIN_COMBINATIONS.each do |win_index|
   win_index.each do |position|
     if position[0] == "X" && position[1] == "X" && position[2] == "X"
