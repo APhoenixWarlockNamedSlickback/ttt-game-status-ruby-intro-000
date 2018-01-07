@@ -23,3 +23,4 @@ WIN_COMBINATIONS.each do |win_index|
       false
     end
   end
+end
