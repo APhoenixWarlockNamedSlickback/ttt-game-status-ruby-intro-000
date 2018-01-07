@@ -26,7 +26,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.detect do |index|
+  board.select do |index|
     if index != " " || won?(board) == false
       true
     else
