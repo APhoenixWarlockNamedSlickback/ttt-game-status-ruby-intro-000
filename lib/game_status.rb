@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   if WIN_COMBINATIONS == true
-    puts WIN_COMBINATIONS
+    puts "#{win_index}"
   else
     false
   end
