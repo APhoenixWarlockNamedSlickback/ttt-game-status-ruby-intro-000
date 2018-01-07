@@ -18,18 +18,20 @@ WIN_COMBINATIONS = [
 top_row_win = [0,1,2]
 
 def won?(board)
-  if board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row_win[2]] == "X"
-    "X won in the top row"
-  #else
-    #false
-  #end
+  WIN_COMBINATIONS.each do |win_index|
+    if board[win_index[0]] == "X" && board[win_index[1]] == "X" && board[win_index[2]] == "X" ||
+      board[win_index[0]] == "O" && board[win_index[1]] == "O" && board[win_index[2]] == "O" ||
+      return win_index
+    end
+  end
+  false
 end
 
 
 WIN_COMBINATIONS.each do |win_index|
   win_index.each do |position|
     if position[0] == "X" && position[1] == "X" && position[2] == "X"
-      puts "#{win_index}"
+      return
     else
       false
     end
