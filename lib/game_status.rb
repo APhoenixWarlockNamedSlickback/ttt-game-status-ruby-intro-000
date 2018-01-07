@@ -35,3 +35,5 @@ WIN_COMBINATIONS.each do |win_index|
 end
 
 position_taken?
+
+won?
