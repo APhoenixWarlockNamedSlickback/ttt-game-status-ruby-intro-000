@@ -15,6 +15,8 @@ WIN_COMBINATIONS = [
   [6,4,2]
 ]# Define your WIN_COMBINATIONS constant
 
+top_row_win = [0,1,2]
+
 def won?(board)
   if WIN_COMBINATIONS == true
     puts "#{win_index}"
