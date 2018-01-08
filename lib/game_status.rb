@@ -22,7 +22,7 @@ def won?(board)
       return win_index
     end
   end
-  retun false
+  return false
 end
 
 def full?(board)
