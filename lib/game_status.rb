@@ -25,6 +25,7 @@ def won?(board)
   if (board == "X" || board == "O")
   return false
 end
+end
 
 def full?(board)
   if board.include? " "
