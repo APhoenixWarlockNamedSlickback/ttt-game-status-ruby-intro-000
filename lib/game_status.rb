@@ -34,9 +34,9 @@ def full?(board)
   end
 
 def draw?(board)
-  if board.any? " "
-    return false
+  if board.none? " "
+    return true
   else
-    true
+    false
   end
 end
