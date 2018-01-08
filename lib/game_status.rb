@@ -40,8 +40,8 @@ def draw?(board)
 #    return true
   else
     false
-  elsif won?(board)
-    false
+#  elsif won?(board)
+#    false
   end
 end
 
