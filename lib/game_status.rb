@@ -26,7 +26,7 @@ def won?(board)
 end
 
 def full?(board)
-  if board.detect? " "
+  if board.include? " "
     return false
     else
       true
