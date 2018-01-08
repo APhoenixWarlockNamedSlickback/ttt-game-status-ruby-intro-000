@@ -22,6 +22,7 @@ def won?(board)
       return win_index
     end
   end
+  if (board == "X" || board == "O")
   return false
 end
 
